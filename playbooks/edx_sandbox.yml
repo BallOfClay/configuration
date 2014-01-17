@@ -18,7 +18,6 @@
       nginx_sites:
       - cms
       - lms
-      - ora
       - xqueue
       nginx_default_sites:
       - lms
@@ -32,6 +31,4 @@
     - elasticsearch
     - forum
     - { role: "xqueue", update_users: True }
-    - ora
-    - discern
     - edx_ansible
